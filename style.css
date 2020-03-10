@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+
+.main_container {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  background: azure;
+}
+
+/* Container */
+
+.container {
+  grid-template-columns: 3;
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  width: 51%;
+}
+
+.container > div:nth-of-type(1) {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.container > div:nth-of-type(2) {
+  border-bottom-left-radius: 5px;
+}
+.container > div:nth-of-type(3) {
+  border-bottom-right-radius: 5px;
+}
+
+/* Join Section  */
+
+.join {
+  background-color: #fff;
+  padding: 3rem;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.join h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+.join h3 {
+  color: hsl(71, 73%, 54%);
+  line-height: 3.5;
+}
+
+.join p {
+  line-height: 1.5;
+  width: 78%;
+  color: hsl(218, 22%, 67%);
+}
+
+/* Pricing section  */
+
+.pricing {
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
+  padding: 3rem;
+}
+
+.pricing span {
+  margin-right: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2;
+  color: #fff;
+}
+
+.pricing p:nth-of-type(1) {
+  color: hsl(210, 8%, 85%);
+}
+
+.pricing p:nth-of-type(2) {
+  margin-bottom: 3rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1rem 6rem;
+  background: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  box-shadow: 5px 5px 14px -7px #444;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Why section  */
+
+.why {
+  background-color: hsl(179, 74%, 46%);
+  color: hsl(204, 43%, 93%);
+  padding: 3rem;
+}
+
+.why li:nth-of-type(1) {
+  margin-bottom: 1.2rem;
+  font-size:1.2rem ;
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+}
+
+.why li {
+  list-style: none;
+  line-height: 1.3;
+}
