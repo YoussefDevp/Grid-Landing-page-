@@ -13,12 +13,13 @@ body {
   display: grid;
   height: 100vh;
   width: 100vw;
-  background: rgb(63, 63, 63);
+  background: #e6eff6;
 }
 
 /* Container */
 
 .container {
+  box-shadow: 5px 5px 5px -10px rgb(48, 47, 47) ;
   grid-template-columns: 3;
   display: grid;
   align-self: center;
