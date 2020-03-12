@@ -19,7 +19,7 @@ body {
 /* Container */
 
 .container {
-  box-shadow: 5px 5px 5px -10px rgb(48, 47, 47) ;
+  box-shadow: 5px 5px 5px -10px rgb(48, 47, 47);
   grid-template-columns: 3;
   display: grid;
   align-self: center;
